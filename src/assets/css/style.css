@@ -6025,10 +6025,11 @@ select#select_network option {
   margin-right: -15px;
 }
 
-.presale-area #buy_token_box {
+.presale-area .buy_token_box {
   padding: 30px 9%;
   background-color: #1f58b1;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 .presale-area .buy_token_inputbox {
@@ -6055,7 +6056,7 @@ input::-webkit-inner-spin-button {
   border: 2px solid #4f88b5;
 }
 
-.login_box .wallet_add   {
+.login_box .wallet_add {
   margin: 0px 10px;
   background-color: #0d459e;
   border-radius: 5px;

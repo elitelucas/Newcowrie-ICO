@@ -116,8 +116,7 @@ const Presale = () => {
               Presale Total Amount: {formatNumber(saleStatus.totalSupply, 2, 2)} COWR
             </p>
           </div>
-          <br />
-          <div id="buy_token_box">
+          <div className="buy_token_box">
             <div className="buy_token_subbox">
               <Row>
                 <Col lg={6} md={6} sm={6} className="col-xs-6">
@@ -174,6 +173,10 @@ const Presale = () => {
               <button disabled={!sendAmount || pendingTx} className="btn1" style={{ width: "90%" }} onClick={() => { buyAction() }}>Buy Presale Tokens</button>
             </div>
           </div>
+
+          {0 ? (<div className="buy_token_box">
+            <h3>You now have <br/>1,500 Newcowrie Presale Tokens.</h3>
+          </div>) : (<React.Fragment></React.Fragment>)}
         </Col>
       </Row>
       <Row style={{ textAlign: "center", marginTop: "120px" }}>
